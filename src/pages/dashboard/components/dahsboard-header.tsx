@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export function DashboardHeader() {
   return (
-    <header className="flex w-full px-4">
+    <header className="flex w-full px-4 py-2 bg-gray-900 fixed top-0">
       <div className="max-w-[1268px] w-full flex mx-auto justify-between py-3">
         <p className="font-semibold text-lg text-white">
           e-commerce-redux 👏

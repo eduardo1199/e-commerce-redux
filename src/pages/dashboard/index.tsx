@@ -8,7 +8,7 @@ export function Dashboard() {
     <div>
       <DashboardHeader />
 
-      <main className="flex flex-col flex-1 mt-10 px-4 ">
+      <main className="flex flex-col flex-1 mt-[120px] px-4">
         <DashboardFilters />
 
         <FiltersApplys />
@@ -54,10 +54,98 @@ export function Dashboard() {
             productId="a16f5a1sx5f1a5f1aw6f5a"
             productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
           />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
+          <CardOrder 
+            amountFeedback={[2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+            hasProductCart={false}
+            onAddProduct={() => {}}
+            orderAmount={200}
+            productId="a16f5a1sx5f1a5f1aw6f5a"
+            productName="Relógio Casio G- Shock Digital Masculino DW-5600BB-1DR"
+          />
         </div>
       </main>
 
-      <footer className="mt-10 p-4 bg-slate-200 fixed bottom-0 w-full">
+      <footer className="mt-10 p-4 bg-slate-200 bottom-0 w-full">
         <div className="flex justify-center items-center flex-col gap-4">
           <span className="text-sm text-gray-600">E-Commerce Redux . | CNPJ xx.xxx.xxx/xxxx-xx</span>
 

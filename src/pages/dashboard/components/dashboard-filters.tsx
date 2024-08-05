@@ -2,7 +2,9 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 
 export function DashboardFilters() {
   return (
-    <div className="flex items-center justify-between max-w-[1268px] w-full mx-auto">
+    <div 
+      className="flex items-center justify-between max-w-[1268px] w-full mx-auto sticky top-[80px] pb-4 bg-gray-900"
+    >
       <span className="text-slate-200">Resultados: 36 de 150</span>
 
       <Select>
