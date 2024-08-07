@@ -1,12 +1,12 @@
+import { NavHeader } from "@/@/components/nav-header"
 import { CardOrder } from "./components/card-order"
-import { DashboardHeader } from "./components/dahsboard-header"
 import { DashboardFilters } from "./components/dashboard-filters"
 import { FiltersApplys } from "./components/filters-apply"
 
 export function Dashboard() {
   return (
     <div>
-      <DashboardHeader />
+      <NavHeader />
 
       <main className="flex flex-col flex-1 mt-[120px] px-4">
         <DashboardFilters />
